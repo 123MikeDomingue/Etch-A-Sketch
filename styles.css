@@ -1,0 +1,60 @@
+*{
+ box-sizing: border-box;
+}
+
+.EtchASketchTitle{
+ text-align: center;
+}
+
+
+/* stylzing the grids  */
+
+#container{
+ display: grid;
+
+  
+    
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+
+min-width: 100%;
+
+margin-top: 20px;
+
+
+
+}
+
+.grid-item{
+  padding: 1em;
+  text-align: center;
+}
+
+#squaredivs{
+width: 100%;
+
+
+
+
+}
+
+/* media screen section for a smaller screen size */
+/* @media (max-width: 675px){
+  #container{
+    display: grid;
+    grid-auto-flow: row;
+  }
+} */
+
+
+#mybtn{
+margin-bottom: 30px;
+
+display: block;
+margin: 0 auto;
+}
+#clearbtn{
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
